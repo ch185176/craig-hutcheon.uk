@@ -1,0 +1,10 @@
+{
+    "require": {
+        "michelf/php-markdown": "^1.8"
+    },
+	"autoload": {
+        "psr-4": {
+		"Source\\": "src/"
+		}
+    }
+}
