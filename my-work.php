@@ -11,11 +11,11 @@
         <?php require_once 'includes/nav.php' ?>
         <div class="container" style="margin-top:10px">
             <?php
-                $homePage = $ContentRepo->retrieveHomePage();
+                $MyWorkPage = $ContentRepo->retrieveMyWork();
             ?>
-            <h1><?=$homePage->heading?></h1>
-            <h2><?=$homePage->sub_heading?></h2>
-            <p><?=$markdown->defaultTransform($homePage->content);?></p>
+            <h1><?=$MyWorkPage->heading?></h1>
+            <h2><?=$MyWorkPage->sub_heading?></h2>
+            <p><?=$markdown->defaultTransform($MyWorkPage->content);?></p>
         </div>
     </body>
     <footer>
