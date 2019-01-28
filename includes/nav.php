@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
  <!-- Brand -->
- <a class="navbar-brand" href="https://craig-hutcheon.uk" style="font-family:PlayfairDiaplay; src:url(../fonts/PlayfairDisplay-Regular.otf);">Craig's Website</a>
+ <a class="navbar-brand" href="https://craig-hutcheon.uk" style="font-family:playfair_displayregular;">Craig's Website</a>
 
  <!-- Toggler/collapsibe Button -->
  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">

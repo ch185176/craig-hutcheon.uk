@@ -40,6 +40,7 @@
                     echo('<div class="col-sm-4">');
                     echo('<p>'. $markdown->defaultTransform($description) .'</p>');
                     echo('</div>');
+                    echo('</div>');
                 }
             ?>
         </div>
