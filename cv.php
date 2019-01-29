@@ -20,7 +20,5 @@
             <p><?=$markdown->defaultTransform($CVPage->content);?></p>
         </div>
     </body>
-    <footer>
         <?php require_once 'includes/footer.php'?>
-    </footer>
 </html>
