@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="page-footer font-small bg-dark text-light">
+<footer class="page-footer font-small bg-dark text-light fixed-bottom">
 
     <!-- Footer Elements -->
     <div class="container">
