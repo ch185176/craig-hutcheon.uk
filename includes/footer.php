@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="page-footer font-small bg-dark text-light fixed-bottom">
+<footer class="page-footer font-small bg-dark text-light fixed-bottom" style="margin-top:20%">
 
     <!-- Footer Elements -->
     <div class="container">
@@ -8,8 +8,8 @@
       <div class="row">
 
         <!-- Grid column -->
-        <div class="col-md-12 py-5">
-          <div class="mb-5 flex-center">
+        <div class="col-md-12 py-3">
+          <div class="mb-2 flex-center">
 
             <!--Linkedin -->
             <a class="li-ic" href='https://www.linkedin.com/in/craig-hutcheon-234420163/'>
@@ -34,7 +34,7 @@
     <!-- Footer Elements -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2019 Copyright: Designed by Craig Hutcheon</a>
+    <div class="footer-copyright text-center py-2">© 2019 Copyright: Designed by Craig Hutcheon
     </div>
     <!-- Copyright -->
 

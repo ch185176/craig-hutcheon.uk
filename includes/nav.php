@@ -23,6 +23,16 @@
     </ul>
     <ul class="navbar-nav ml-auto nav-flex-icons">
       <li class="nav-item">
+        <a class="nav-link waves-effect waves-light" href="https://www.linkedin.com/in/craig-hutcheon-234420163/">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-effect waves-light" href="https://github.com/craigh33/">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link waves-effect waves-light" href="https://craig-hutcheon.uk/cockpit-master/">
           <i class="fas fa-user-circle"></i>
         </a>

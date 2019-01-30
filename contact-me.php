@@ -6,9 +6,9 @@
         $page = "Contact Me";
         require_once 'includes/header.php'
         ?>
-    </head>
-    <body>
         <?php require_once 'includes/nav.php' ?>
+    </head>
+    <body style="padding-bottom:15%;">
         <div class="container" style="margin-top:10px">
             <h1>Contact Me</h1>
             <p>If you wish to contact me, please use this form to get in touch.</p>

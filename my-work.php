@@ -6,9 +6,9 @@
         $page = "My Work";
         require_once 'includes/header.php'
         ?>
-    </head>
-    <body>
         <?php require_once 'includes/nav.php' ?>
+    </head>
+    <body style="padding-bottom:20%;">
         <div class="container" style="margin-top:10px">
             <div class="row">
                 <?php
