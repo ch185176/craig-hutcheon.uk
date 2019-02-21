@@ -16,7 +16,7 @@
             <h1><?=$CVPage->heading?></h1>
             <h2><?=$CVPage->sub_heading?></h2><br>
 
-            <a class="btn btn-primary" href="<?php $CVPage->cv_file ?>" download="Craig_CV.pdf">Download</a>
+            <a class="btn btn-primary" href="<?= "http://craig-hutcheon.uk/". $CVPage->cv_file ?>" download="Craig_CV.pdf">Download</a>
             <p><?=$markdown->defaultTransform($CVPage->content);?></p>
         </div>
     </body>
