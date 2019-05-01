@@ -86,5 +86,22 @@ class ContentRepository
         $response = json_decode($curl_response);
         return $response->entries;
     }
+
+    function retrieveArticle($articleTitle){
+        $service_url = 'https://craig-hutcheon.uk/cockpit-master/api/collections/get/project_article?token=cf559d37fcff160b827e63fc24f7d0';
+        $curl = curl_init($service_url);
+        $curl_post_data = array(
+            'method' => 'post',
+            'filter[title]' => $articleTitle,
+            'populate' => 1,
+        );
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($curl, CURLOPT_POST, true);
+        curl_setopt($curl, CURLOPT_POSTFIELDS, $curl_post_data);
+        $curl_response = curl_exec($curl);
+        curl_close($curl);
+        $response = json_decode($curl_response);
+        return $response->entries;
+    }
 }
 

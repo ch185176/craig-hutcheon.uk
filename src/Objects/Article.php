@@ -11,35 +11,35 @@ class Article
 
     function __CONSTRUCT($title = null, $description = null, $thumbnail = null, $content = null, $image = null)
     {
-        $this->$title = $title;
-        $this->$description = $description;
-        $this->$thumbnail = $thumbnail;
-        $this->$content = $content;
-        $this->$image = $image;
+        $this->title = $title;
+        $this->description = $description;
+        $this->thumbnail = $thumbnail;
+        $this->content = $content;
+        $this->image = $image;
     }
     
     function getTitle()
     {
-        return $this->$title;
+        return $this->title;
     }
 
     function getDescription()
     {
-        return $this->$description;
+        return $this->description;
     }
     
     function getThumbnail()
     {
-        return $this->$thumbnail;
+        return $this->thumbnail;
     }
     
     function getContent()
     {
-        return $this->$content;
+        return $this->content;
     }
     
     function getImage()
     {
-        return $this->$image;
+        return $this->image;
     }
 }

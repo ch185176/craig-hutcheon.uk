@@ -9,22 +9,22 @@ class Header
 
     function __CONSTRUCT($image = null, $text = null, $description = null)
     {
-        $this->$image = $image;
-        $this->$text = $text;
-        $this->$description = $description;
+        $this->image = $image;
+        $this->text = $text;
+        $this->description = $description;
     }
     function getImage()
     {
-        return $this->$image;
+        return $this->image;
     }
 
     function getText()
     {
-        return $this->$text;
+        return $this->text;
     }
 
     function getDescription()
     {
-        return $this->$description;
+        return $this->description;
     }
 }
