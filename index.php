@@ -7,7 +7,7 @@
         require_once 'includes/header.php'
         ?>
     </head>
-    <body>
+    <body style="padding-bottom:20%;">
         <?php require_once 'includes/nav.php' ?>
         <div class="container" style="margin-top:10px">
             <?php
@@ -18,7 +18,5 @@
             <p><?=$markdown->defaultTransform($homePage->content);?></p>
         </div>
     </body>
-    <footer>
         <?php require_once 'includes/footer.php'?>
-    </footer>
 </html>
